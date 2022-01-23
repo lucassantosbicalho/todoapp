@@ -1,16 +1,13 @@
-# todoapp
+# TO-DO App
 
-A new Flutter project.
+### By Lucas Bicalho
 
-## Getting Started
+This app were inspired on Alex Arutuynov's UI posted [here](https://dribbble.com/shots/14100356-ToDo-App-UI), but focusing on the Home screen.
+I found some challenges while coding, and I think one of them deserves to be mentioned:
 
-This project is a starting point for a Flutter application.
+- ListView scroll don't working on web, just mobiles. After some research I found what follows:
 
-A few resources to get you started if this is your first Flutter project:
+*Flutter 2.5 Summary*
+ScrollBehaviors now allow or disallow drag scrolling from specified PointerDeviceKinds. ScrollBehavior.dragDevices, by default, allows scrolling widgets to be dragged by all PointerDeviceKinds except for PointerDeviceKind.mouse.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+So, to make it work, I follow the *Setting a custom ScrollBehavior for your application* demonstrated at [flutter documentation](https://docs.flutter.dev/release/breaking-changes/default-scroll-behavior-drag).
