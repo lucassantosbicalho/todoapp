@@ -12,5 +12,5 @@ mixin k {
   static double defaultBorderRadius = 10;
   static double defaultContainerWidth = 220;
   static double defaultOffsetX = 0;
-  static double defaultOffsetY = 10;
+  static double defaultOffsetY = 0;
 }

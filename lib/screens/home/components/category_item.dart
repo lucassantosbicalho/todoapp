@@ -35,7 +35,7 @@ class CategoryItem extends StatelessWidget {
                 offset: Offset(k.defaultOffsetX, k.defaultOffsetY),
                 blurRadius: k.defaultBlurRadius,
                 spreadRadius: k.defaultSpreadRadius,
-                color: Vx.blueGray900.withOpacity(0.5)),
+                color: Vx.blueGray900.withOpacity(0.1)),
           ],
         ),
         child: Column(

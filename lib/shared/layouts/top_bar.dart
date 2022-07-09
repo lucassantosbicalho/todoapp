@@ -17,7 +17,7 @@ class TopBar extends StatelessWidget {
             onPressed: () {},
             icon: SvgPicture.asset(
               'icons/menu.svg',
-              color: Vx.blueGray400,
+              color: Colors.black,
               width: k.defaultIconSize,
             ),
           ),
